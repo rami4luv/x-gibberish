@@ -34,5 +34,5 @@ Here's a fine piece of text:
 Edit the body of the `gibberish(input)` function in the `index.js`
 so it transforms the `input` argument into:
 
-`Un ch4553ur 54ch4nt ch4553r 54n5 5on ch13n 35t un b0n ch4553ur`
+`Un ch4553ur 54ch4nt ch4553r 54n5 50n ch13n 35t un b0n ch4553ur`
 
