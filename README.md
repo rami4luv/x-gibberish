@@ -13,15 +13,26 @@ Let's talk have fun with letters and numbers.
 Yeah.
 Like... at least a bit.
 
-### First
+### Preparation
+
+1. _Fork_ the repository at https://github.com/zeropaper/x-gibberish and
+then clone it on your machine.
+
+2. Install `nodemon` with `npm` globally. For that, open a terminal and 
+use `npm install -g nodemon`.
+
+3. In your terminal, go to the directory of the x-gibberish exercise and
+execute `nodemon` like `nodemon index.js`. Now, everytime you make a
+change to `index.js`, the script will be executed.
+
+### Exercise
 
 Here's a fine piece of text:
 
-``1 chasseur sachant chasser sans son chien est un bon chasseur``
+`Un chasseur sachant chasser sans son chien est un bon chasseur`
 
-turn it into
+Edit the body of the `gibberish(input)` function in the `index.js`
+so it transforms the `input` argument into:
 
-``l ch4553ur 54ch4nt ch4553r 54n5 5on ch13n 35t un b0n ch4553ur``
+`Un ch4553ur 54ch4nt ch4553r 54n5 5on ch13n 35t un b0n ch4553ur`
 
-
-to be continued....
