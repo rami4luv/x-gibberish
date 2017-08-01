@@ -1,5 +1,28 @@
 function gibberish(input) {
-  // code here
+  return input
+    .split('')
+    .map(function(char) {
+      switch (char) {
+        case 'a':
+        case 'A':
+          return 4;
+        case 'e':
+        case 'E':
+          return 3;
+        case 'i':
+        case 'I':
+          return 1;
+        case 's':
+        case 'S':
+          return 5;
+        case 'o':
+        case 'O':
+          return 0;
+        default:
+          return char;
+      }
+    })
+    .join('');
 }
 
 // don't touch below this line ;)
